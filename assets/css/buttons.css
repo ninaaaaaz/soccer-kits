@@ -1,0 +1,52 @@
+.fancy_button {}
+.fancy_button,
+.fancy_button span {
+	display:inline-block;
+	position:relative;
+	font:bold 12px/13px Verdana,sans-serif;
+	text-decoration:none !important;
+	cursor:pointer;
+	color:#078ed2;
+	-moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    -khtml-border-radius:6px;
+    border-radius:6px;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.fancy_button span.outer {}
+.fancy_button span.inner {
+	padding:4px 7px;
+	padding-bottom:5px;
+}
+.fancy_button:hover span.outer {
+	-moz-box-shadow: 0px 0px 5px #ccc;
+	-webkit-box-shadow: 0px 0px 5px #ccc;
+	box-shadow: 0px 0px 5px #ccc;
+}
+.fancy_button:hover span.inner {
+	background:#0680bd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#169ce0), to(#0680bd));
+	background: -moz-linear-gradient(top,  #169ce0,  #0680bd);
+	color:#fff;
+}
+.fancy_button span.inner .label { top: -1px; }
+.fancy_button:hover span.inner .label { color:#fff; }
+
+
+.fancy_button span.icon { 
+	display: inline-block;
+	width: 12px;
+	height: 15px;
+	background: url('../img/sprite_infostory.png') no-repeat 0px 0px;
+	position: relative;
+	top: 1px;
+}
+.fancy_button span.icon.prev {	background-position: -90px -85px; }
+.fancy_button span.icon.next {	background-position: -109px -85px; }
+
+.fancy_button:hover span.icon.prev {	background-position: -50px -85px; }
+.fancy_button:hover span.icon.next {	background-position: -69px -85px; }

@@ -1,0 +1,71 @@
+.i_s_controls,
+.i_s_labelpoints,
+.i_s_datapoints,
+.i_s_detail_window,
+.i_s_border,
+.i_s_backgrounds, 
+.i_s_video_still,
+.i_s_visible_video,
+.i_s_mobile_alternate {display: none;}
+
+.infostory, .i_s_ie9_or_less 	{display: block !important;}
+.i_s_header 	{
+	width: 620px;
+	text-align: center;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+	border-bottom-width: 4px;
+	border-bottom-style: double;serif;
+	border-bottom-color: rgb(204, 204, 204);
+}
+
+.i_s_header .i_s_timeline_label 	{
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 14px;
+	font-family: Verdana, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: rgb(255, 255, 255);
+	padding: 3px 6px;
+	background-color: rgb(0, 0, 0);
+	margin-bottom: 5px;
+}
+.i_s_header h2	{
+	display: block;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 36px;
+	font-family: Georgia, serif;
+	margin: 10px 0px;
+}
+.i_s_header h4	{
+	font-style: italic;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	font-family: Georgia, serif;
+	color: rgb(102, 102, 102);
+	margin: 10px 0px;
+}
+.i_s_ie9_or_less .i_s_bg	{
+	width: 620px;
+	height: 1476px;
+	background: url("../img/static_desktop.jpg") no-repeat 0px 0;
+}
+.i_s_ie9_or_less .i_s_msg {
+	font: normal 20px/25px Georgia, serif;
+	display: block;
+	width: 400px;
+	text-align: left;
+	padding: 0 0 0 20px;
+	height: 100px;
+	position: relative;
+	top: 20px;
+	z-index: 100;
+	color: black;
+}
